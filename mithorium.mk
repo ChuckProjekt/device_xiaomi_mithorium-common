@@ -419,6 +419,10 @@ MITHORIUM_PRODUCT_PACKAGES += \
     init.qti.dcvs.sh
 endif
 
+# Remove Packages
+MITHORIUM_PRODUCT_PACKAGES += \
+    RemovePackages
+
 # RIL
 MITHORIUM_PRODUCT_PACKAGES += \
     android.hardware.radio@1.4.vendor \
