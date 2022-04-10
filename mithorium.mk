@@ -464,6 +464,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg_msm8937.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 endif
 
+# MiuiCamera
+ifneq ($(wildcard vendor/miuicamera/config.mk),)
+$(call inherit-product, vendor/miuicamera/config.mk)
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/miuicam/pine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/pine.xml \
+    $(LOCAL_PATH)/configs/miuicam/olive.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olive.xml \
+    $(LOCAL_PATH)/configs/miuicam/olive.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olivelite.xml \
+    $(LOCAL_PATH)/configs/miuicam/olive.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olivewood.xml
+endif
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/mithorium-common/mithorium-common-vendor.mk)
 
