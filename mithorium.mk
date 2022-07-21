@@ -412,6 +412,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/qcom-caf/msm8996/display/display-commonsys-intf \
+    vendor/qcom/opensource/commonsys/display \
+    vendor/qcom/opensource/display
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
