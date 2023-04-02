@@ -361,9 +361,13 @@ MITHORIUM_PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
 # Perf
-MITHORIUM_PRODUCT_PACKAGES += \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.2.vendor
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0 \
+    libavservices_minijail
 
 # Power
 MITHORIUM_PRODUCT_PACKAGES += \

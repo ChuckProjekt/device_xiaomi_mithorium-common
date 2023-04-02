@@ -79,6 +79,12 @@ vendor/lib/libwfdmmservice.so
 # Perf
 vendor/lib/libqti-perfd-client.so
 
+# Perf - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/lib64/vendor.qti.hardware.perf@1.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
+
 # QMI
 vendor/lib/libdiag.so
 vendor/lib/libqmi_cci.so

@@ -271,6 +271,12 @@ vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
 
+# Perf - from LA.UM.9.6.3.r1-06200-89xx.0
+vendor/lib/vendor.qti.hardware.perf@1.0.so
+vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/vendor.qti.hardware.perf@2.1.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+
 # Perf configs
 vendor/etc/lm/AdaptLaunchFeature.xml
 
