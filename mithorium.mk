@@ -230,7 +230,7 @@ MITHORIUM_PRODUCT_PACKAGES += \
 
 # FM
 MITHORIUM_PRODUCT_PACKAGES += \
-    FMRadio \
+    RevampedFMRadio \
     libfmjni
 
 # Gatekeeper HAL
