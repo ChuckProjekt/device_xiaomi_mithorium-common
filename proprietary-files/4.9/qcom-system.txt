@@ -131,7 +131,6 @@ system_ext/lib64/libimscamera_jni.so
 # Perf - from LA.QSSI.13.0.r1-05300-qssi.0
 system_ext/app/PerformanceMode/PerformanceMode.apk
 system_ext/app/PowerSaveMode/PowerSaveMode.apk
-system_ext/app/workloadclassifier/workloadclassifier.apk
 system_ext/bin/perfservice
 system_ext/bin/qspmsvc
 system_ext/etc/init/perfservice.rc
